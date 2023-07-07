@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('./fonts/SpaceGrotesk-VariableFont_wght.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: SpaceGrotesk, serif;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    background-color: #090909;
+}
+
+body {
+    text-align: center;
+}
+
+#main {
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+    margin:0 auto;
+}
+
+#main img {
+    max-width: 100%;
+    margin:0;
+    padding:0;
+    display: block;
+}
+
+
+#nav-outer {
+    background-color: red;
+    position: relative;
+}
+
+#nav {
+    z-index: 256;
+    position: absolute;
+    right: 75px;
+    top: 25px;
+
+}
+
+#nav a {
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.body-anchor {
+    position: absolute;
+    left: 0;
+}
+
+.body-anchor#about { top: 708px;}
+.body-anchor#projects { top: 1418px;}
+.body-anchor#contact { top: 3220px;}
